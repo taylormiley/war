@@ -17,8 +17,8 @@ requirejs.config({
 });
 
 //dependencies are global dependencies
-requirejs(["dependencies"], 
-  function(dependencies) {
+requirejs(["dependencies", "event-handlers"], 
+  function(dependencies, eventHandlers) {
   
   
 
